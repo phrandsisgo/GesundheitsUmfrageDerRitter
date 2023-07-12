@@ -7,6 +7,11 @@
     <title>Document</title>
 </head>
 <body>
+
+<?php include 'header.php';?>
+
+<h1>here comes the content of auboutUs</h1>
+<?php include 'footer.php';?>
     
 </body>
 </html>
