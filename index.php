@@ -8,13 +8,13 @@
 </head>
 <body>
     <?php include 'header.php';?>
-    <div class="container">
-  <div class="row">
-    <div class="col-9">erste box</div>
-   
-  </div>
-</div>
+    <p>Willkommen bei der Gesundheitsumfrage der tapferen Ritter. Bitte geloben sie nichts anderes als die Wahrheit anzugeben beim ausfüllen unseren Formulares. Danach geben sie eine feierlich anerkannte Rückmeldung und ein Angebot wie 
+sie Ihr Leben verbessern können.
+<br><br><br>
+Danke sagt: Binyam der Magier, Sir Louis, Francisco der Weiser.</p>
 
+    <h3>Fragestellung</h3>
+    <p>antwortFeld</p>
     <?php include 'footer.php';?>
 </body>
 </html>
