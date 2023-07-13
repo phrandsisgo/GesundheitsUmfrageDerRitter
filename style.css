@@ -1,3 +1,4 @@
+
 .container {
   width: 2fr;
   align-items: center;
@@ -42,4 +43,8 @@ form {
 .form-label {
   margin-top: 15px;
   justify-content: space-between;
+}
+.question{
+    margin-top: 50px;
+    margin-bottom: 50px;
 }

@@ -13,7 +13,7 @@
 <body>
         <nav class="navbar navbar-expand bg-primary navbar-dark">
           <div class="container-fluid">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav ms-auto">
               <li class="nav-item">
                 <a class="nav-link active" href="#">Home</a>
               </li>
