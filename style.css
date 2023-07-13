@@ -1,4 +1,5 @@
 
+
 .container {
   width: 2fr;
   align-items: center;
@@ -47,4 +48,7 @@ form {
 .question{
     margin-top: 50px;
     margin-bottom: 50px;
+}
+.heightSpacerTop{
+    height: 50px;
 }
