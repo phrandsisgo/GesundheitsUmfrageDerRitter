@@ -2,7 +2,7 @@
   * Templates die wir brauchen:
     * 1. rangeslider
     * 2. boolean
-    * 3. multiplechoice
+    * 3. multiplechoice 
     * 4. eingabefeld Zahl  
 
   *was alles in die templates rein muss:
