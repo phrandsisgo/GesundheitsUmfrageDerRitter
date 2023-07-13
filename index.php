@@ -8,6 +8,13 @@
 </head>
 <body>
     <?php include 'header.php';?>
+    <div class="container">
+  <div class="row">
+    <div class="col-9">erste box</div>
+   
+  </div>
+</div>
+
     <?php include 'footer.php';?>
 </body>
 </html>
