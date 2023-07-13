@@ -7,7 +7,7 @@
 
   *was alles in die templates rein muss:
     * 1. rangeslider: Frage, Rangeslider, WeiterButton
-    * 2. boolean: Frage, Ja, Nein(Radio buttons), WeiterButton
+    * 2. boolean: Frage, Ja, Nein (Radio buttons), WeiterButton
     * 3. multiplechoice: Frage, Optionen (selector), WeiterButton
     * 4. eingabefeld Zahl: Frage, Eingabefeld, WeiterButton//js validierung
     
