@@ -16,7 +16,6 @@
     <div class="input-group">
   <input type="number" class="form-control">
   <button class="btn btn-outline-secondary" type="button">Button</button>
-  <button class="btn btn-outline-secondary" type="button">Button</button>
 </div>
     
     <?php include 'footer.php';?>

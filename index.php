@@ -15,7 +15,7 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-10 grey-background">
+            <div class="grey-background">
                 <h1>Check-up:</h1>
                 <h2>richtig eingesetzt sehr sinnvoll</h2>
                 <p>Willkommen bei der Gesundheitsumfrage der tapferen Ritter. Bitte geloben sie nichts anderes als die Wahrheit anzugeben beim ausfüllen unseren Formulares. Danach geben sie eine feierlich anerkannte Rückmeldung und ein Angebot wie 
@@ -29,10 +29,8 @@
         <div class="fragen-container">
             <p>Wie gesund bist du körperlich?</p>
         </div>
-        <form class="form-label">
-            <label>nicht good</label>
-            <label>solala</label>
-            <label>gut</label>
+        <form>
+            <label class="form-label">schlecht solala gut</label>
             <input type="range" class="form-range" min="0" max="5" id="customRange">
         </form>
     
