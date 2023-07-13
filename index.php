@@ -29,10 +29,11 @@
         <div class="fragen-container">
             <p>Wie gesund bist du körperlich?</p>
         </div>
-        <form>
+        <form action="#" method="post" onclick= return>
             <label class="form-label">schlecht solala gut</label>
             <input type="range" class="form-range" min="0" max="5" id="customRange">
         </form>
+        <button class="btn btn-primary" type="button">Nexte Frage</button>
     
 
     </div>

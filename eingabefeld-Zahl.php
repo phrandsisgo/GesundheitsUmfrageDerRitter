@@ -13,11 +13,20 @@
 <body>
     <?php include 'header.php';?>
 
-    <div class="input-group">
-  <input type="number" class="form-control">
-  <button class="btn btn-outline-secondary" type="button">Button</button>
-</div>
+  <div class="card w-50">
+    <div class="card-h4">
+      <h4>An einem typischen Tag: Wie viele deiner
+        Malzeiten oder Snacks enthalten
+        Kohlenhydrate?
+      </h4>
+    </div>
+    <div class="input-group" action="#" method="post" onclick= return>
+        <input type="number" class="form-control">
+        <button class="btn btn-primary" type="button">Nexte Frage</button>
+      </div>
+  </div>
     
+  </div>
     <?php include 'footer.php';?>
 </body>
 </html>
