@@ -9,6 +9,16 @@ $fragen = array(
 //hilf mir aus den Fragen ein Multidimensionales Array zu machen.
 //diese Arrays sind folgendermassen geordnet: Frage, Antwort, Typ, Optionen(falls nötig)
  $Fragen = array(
+    /*
+   //einschub von Chris
+    array(
+        "questionText" => "Wie gesund bist du körperlich?",
+        "type" => "rangeSlider",
+        "labels" => array("ungesund", "s", ""),
+        "min" => 0,
+        "max" => 5
+    )
+*/
     array("Wie gesund bist du körperlich?", 5,"rangeslider, 1-5"),
     array("Nimmst du Nahrungsergänzungsmittel?", "nein","boolean"),
     array("Wie wichtig ist köperliche Aktivität für dich?", "5","rangeslider, 1-5"),
