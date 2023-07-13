@@ -27,6 +27,7 @@
     <br>
 
 </div>
+<!--dieses Template wurde von Franicsco verfasst-->
 <div class="col-6" >
 <h3>Hast du das Gefühl, zu wenig, genügend
 oder viel zu viel zusätzliche körperliche
@@ -36,9 +37,13 @@ Aktivitäten zu betreiben? </h3>
     <br>
     <input type="range" class="form-range" min="0" max="5" >
 </form>
+<div class="progress" style="height: 20px;">
+  <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+
 </div>
 <div class="col">
-
+<button>weiter</button>
 </div>
 </div>
     <?php include 'footer.php';?>
