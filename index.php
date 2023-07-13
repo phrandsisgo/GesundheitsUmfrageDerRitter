@@ -29,25 +29,15 @@
         <div class="fragen-container">
             <p>Wie gesund bist du körperlich?</p>
         </div>
-        <form>
-            <label  class="form-label">nicht good</label>
-            <label  class="form-label">solala</label>
-            <label  class="form-label">gut</label>
+        <form class="form-label">
+            <label>nicht good</label>
+            <label>solala</label>
+            <label>gut</label>
             <input type="range" class="form-range" min="0" max="5" id="customRange">
         </form>
     
 
     </div>
-
-    
-    <p>Willkommen bei der Gesundheitsumfrage der tapferen Ritter. Bitte geloben sie nichts anderes als die Wahrheit anzugeben beim ausfüllen unseren Formulares. Danach geben sie eine feierlich anerkannte Rückmeldung und ein Angebot wie 
-sie Ihr Leben verbessern können.
-<br><br><br>
-Danke sagt: Binyam der Magier, Sir Louis, Francisco der Weiser.</p>
-
-    <h3>Fragestellung</h3>
-    <p>antwortFeld</p>
-    
     <?php include 'footer.php';?>
 </body>
 </html>
