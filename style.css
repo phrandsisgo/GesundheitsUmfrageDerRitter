@@ -1,3 +1,54 @@
+
+
+.container {
+  width: 2fr;
+  align-items: center;
+}
+
+.fragen-container {
+  width: 800px;
+  height: 50px;
+  align-items: center;
+  padding-left: 10px;
+  border-radius: 10px;
+  background-color: rgb(241, 240, 240);
+  margin-top: 50px;
+}
+.grey-background {
+  border-radius: 10px;
+  background-color: rgb(241, 240, 240);
+  margin-top: 50px;
+}
+footer {
+  margin-bottom: 0%;
+  margin-top: 400px;
+  background-color: rgb(241, 240, 240);
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+
+form {
+  width: 800px;
+}
+.form-range {
+  width: 100%;
+  background-color: rgb(104, 100, 100);
+  height: 1rem;
+  cursor: pointer;
+}          
+
+.form-label {
+  margin-top: 15px;
+  justify-content: space-between;
+}
+.question{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 .heightSpacerTop{
     height: 50px;
 }
