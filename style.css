@@ -43,7 +43,6 @@ form {
 
 }
 
-
 .form-range {
   width: 100%;
   background-color: rgb(104, 100, 100);
@@ -56,11 +55,9 @@ form {
   justify-content: space-between;
 }
 
-
 .button{
   text-align: end;
 }
-
 
 .input-group {
  width: auto;
@@ -88,5 +85,5 @@ form {
 }
 
 .form-button {
-  margin-left: 25%;
+  margin-left: 75%;
 }

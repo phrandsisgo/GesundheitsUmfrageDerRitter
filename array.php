@@ -7,7 +7,7 @@ $fragen = array(
     "Hast du das Gefühl, zu wenig, genügend oder viel zu viel zusätzliche körperliche Aktivitäten zu betreiben?"=>"genügend",#hier kommt noch dazu, dass es mehrere Optionen gibt aus der man auswählen muss.
 );
 
- $Fragen = array(
+ /*$Fragen = array(
     /*
    //einschub von Chris
     array(
@@ -18,7 +18,7 @@ $fragen = array(
         "max" => 5
     )
 */
-    array("Wie gesund bist du körperlich?", 5,"rangeslider, 1-5"),
+    /*array("Wie gesund bist du körperlich?", 5,"rangeslider, 1-5"),
     array("Nimmst du Nahrungsergänzungsmittel?", "nein","boolean"),
     array("Wie wichtig ist köperliche Aktivität für dich?", "5","rangeslider, 1-5"),
     array("Welche zusätzliche körperliche Aktivität betreibst du am meisten?", "Joggen", "multiplechoice",
@@ -28,9 +28,7 @@ $fragen = array(
     array("An einem typischen Tag: Wie viele deiner Malzeiten oder Snacks enthalten Proteine?", 1, "eingabefeld Zahl"),
     array("An einem typischen Tag: Wie viele deiner Malzeiten oder Snacks enthalten Gemüse?", 1, "eingabefeld Zahl"),
     array("An einem typischen Tag: Wie viele deiner Malzeiten oder Snacks enthalten Früchte?", 1, "eingabefeld Zahl"),
-    array(" An einem typischen Tag: Wie viele deiner Malzeiten kommen aus der Mikrowelle oder sind schon fertig zubereitet?", 1, "eingabefeld Zahl"),
-
- );
+    array(" An einem typischen Tag: Wie viele deiner Malzeiten kommen aus der Mikrowelle oder sind schon fertig zubereitet?", 1, "eingabefeld Zahl"),*/
  #hier wierd es so gemacht wie chris es vorgeschlagen hat.
  $questions=array(
     array(
