@@ -26,7 +26,7 @@
             </div>
 
             <div class="form-check">
-                <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>
+                <input type="radio" class="form-check-input " id="radio1" name="optradio" value="option1" checked>
                 <label class="form-check-label" for="radio1">Ja</label>
             </div>
 

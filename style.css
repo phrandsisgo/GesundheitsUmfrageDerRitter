@@ -40,6 +40,7 @@ h2 {
 
 form {
   width: 100%;/*don't change this (francisco)*/
+  margin-top: 1,5 rem;
 
 }
 
@@ -79,3 +80,5 @@ form {
 .heightSpacerTop{
     height: 50px;
 }
+
+
