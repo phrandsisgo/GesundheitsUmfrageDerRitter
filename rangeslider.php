@@ -7,8 +7,13 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="style.css">
+    <!--
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="bootstrap.css">
+
 </head>
 <body>
     <?php include 'header.php';?>
@@ -22,18 +27,23 @@
     <br>
 
 </div>
-<div class="col-6">
+<!--dieses Template wurde von Franicsco verfasst-->
+<div class="col-6" >
 <h3>Hast du das Gefühl, zu wenig, genügend
 oder viel zu viel zusätzliche körperliche
 Aktivitäten zu betreiben? </h3>
 <form action="Rangequestion" class="mx-auto col-10 col-md-8 col-lg-6">
     <label for=<?php $fRangeQuestion?>>Sehr Wenig</label>
     <br>
-    <input type="range" class="form-range" min="0" max="5" style="background-color: blue; height: 4px;">
+    <input type="range" class="form-range" min="0" max="5" >
 </form>
+<div class="progress" style="height: 20px;">
+  <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+
 </div>
 <div class="col">
-
+<button>weiter</button>
 </div>
 </div>
     <?php include 'footer.php';?>
