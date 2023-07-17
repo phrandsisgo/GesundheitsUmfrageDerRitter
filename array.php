@@ -77,6 +77,7 @@ $fragen = array(
         "type" => "eingabefeld Zahl",
     ),
     array(
-        "questionText" => "An einem typischen Tag: Wie viele deiner Malze
- )
+        "questionText" => "An einem typischen Tag: Wie viele deiner Malze",
+        "type" => "eingabefeld Zahl",
+    ));
 ?>
