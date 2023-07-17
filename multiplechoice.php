@@ -21,6 +21,10 @@
       </h4>
     </div>
 
+  </div>
+
+
+<div class="w-50 lable">
     <div class="input-group" action="#" method="post" onclick= return>
       <label class="container"> Gehen 
         <input type="checkbox" checked="checked">
@@ -64,10 +68,12 @@
       </label>
     </div>
   
-    <button class="btn btn-primary" type="button">Nexte Frage</button>
-  
   </div>
-    
+
+    <div class="form-button">
+      <button class="btn btn-primary" type="submit">Weiter</button>
+    </div>
+
     <?php include 'footer.php';?>
 </body>
 </html>

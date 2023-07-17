@@ -1,4 +1,24 @@
 <?php
+include "questions.php";#bei mir gibt es den als array.php im root orner des Projektes
+include "tools.php"; #keine ahnung was das macht soweit
+
+//hole die Laufnummer der letzten frage aus $_POST
+// Benötiget <input type="hidden" name="questionIndex" value="0">
+// im <form>Tag.
+if (isset($_POST["questionIndex"])) {
+    $questionIndex = $_POST["questionIndex"];
+} else {
+    //auf der index.php Seite gibt es noch keine $_POST werte
+    $questionIndex = -1;
+}
+
+//setze die Laufnummer auf die nächsten frage:
+$questionIndex++; 
+
+//hole die frage aus dem array
+$data = $Questions[$questionIndex];
+prettyPrint($data);//pretty print muss noch vom anderen Projekt kopiert werden. 
+
 $data = $questions[$questionIndex];#question index ist hier noch nicht vorhanden aber wird über das include hinzugefügt
 ?>
 

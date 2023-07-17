@@ -17,7 +17,8 @@
 </head>
 <body>
     <?php include 'header.php';?>
-    <!--in diesem Dokument geht es darum, dass wir ein Template haben und in diser seite sollte ein Range slider verfügbar sein mit der abstufungen 0-5 un es sollten dann noch beschriftungen oben dran sein und noch ein Weiter Knopf unten rechts und im Ideal fall eine Progress bar und alles mit bootstrap-->
+    <!--in diesem Dokument geht es darum, dass wir ein Template haben und in diser seite sollte ein Range slider verfügbar sein mit der abstufungen 0-5 un es sollten 
+    dann noch beschriftungen oben dran sein und noch ein Weiter Knopf unten rechts und im Ideal fall eine Progress bar und alles mit bootstrap-->
     <div class="heightSpacerTop"></div>
 
 
@@ -38,6 +39,8 @@
     <label for=<?php $fRangeQuestion?>>Sehr Wenig</label>
     <br>
     <input type="range" class="form-range" min="0" max="5" >
+    <!--button muss noch zu einem Input type verändert werden.-->
+    <button>weiter</button>
 </form>
 <div class="progress" style="height: 20px;">
   <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
@@ -45,7 +48,6 @@
 
 </div>
 <div class="col">
-<button>weiter</button>
 </div>
 </div>
     <?php include 'footer.php';?>
