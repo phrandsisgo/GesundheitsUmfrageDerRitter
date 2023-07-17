@@ -33,7 +33,7 @@
             <label class="form-label">schlecht solala gut</label>
             <input type="range" class="form-range" min="0" max="5" id="customRange">
         </form>
-        <button class="btn btn-primary" type="button">Nexte Frage</button>
+        <button class="btn btn-primary" type="button">Weiter</button>
     
 
     </div>

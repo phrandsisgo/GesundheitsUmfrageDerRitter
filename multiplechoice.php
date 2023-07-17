@@ -64,7 +64,7 @@
       </label>
     </div>
   
-    <button class="btn btn-primary" type="button">Nexte Frage</button>
+    <button class="btn btn-primary" type="button">Weiter</button>
   
   </div>
     
