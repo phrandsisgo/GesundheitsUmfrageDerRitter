@@ -18,6 +18,8 @@
   border-radius: 10px;
   background-color: rgb(241, 240, 240);
   margin-top: 50px;
+  margin-bottom: 50px;
+  padding-top: 50px;
   padding-bottom: 50px;
   text-align: center;
 }
@@ -37,8 +39,7 @@ h2 {
 
 form {
   width: 100%;/*don't change this (francisco)*/
-  margin-top: 50px;
-  margin-bottom: 50px;
+
 }
 
 

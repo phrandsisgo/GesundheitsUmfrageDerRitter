@@ -21,7 +21,7 @@
 
     <div class="col-md-6">
         <form>
-            <div class="question grey-background">
+            <div class="grey-background">
                 <h3>Nimmst du Nahrungsergänzungsmittel?</h3>
             </div>
 
