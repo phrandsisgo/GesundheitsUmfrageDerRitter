@@ -21,8 +21,8 @@
 
     <div class="col-md-4">
         <form>
-            <div class="question">
-                <h3>Nimmst du Nahrungsergänzungsmittel?</h3>
+            <div class="question"> 
+                <h3>Nimmst du Nahrungsergänzungsmittel?</h3> 
             </div>
 
             <div class="form-check">
