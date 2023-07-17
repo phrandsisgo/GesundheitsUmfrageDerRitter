@@ -13,6 +13,9 @@
 <body>
         <nav class="navbar navbar-expand bg-primary navbar-dark">
           <div class="container-fluid">
+            <div>
+              <img src="Selection.svg" alt="Logo" width="50" height="40">
+            </div>
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
                 <a class="nav-link active" href="#">Home</a>

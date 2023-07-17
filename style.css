@@ -49,6 +49,20 @@ form {
     margin-top: 50px;
     margin-bottom: 50px;
 }
+.input-group {
+ width: auto;
+ margin-top: 50px;
+
+}
+.card {
+  margin-top: 50px;
+  margin-left: 25%;
+  background-color: rgb(226, 223, 223);
+}
+.card-h4 {
+ padding-top: 20px;
+ padding-left: 20px;
+}
 .heightSpacerTop{
     height: 50px;
 }
