@@ -17,11 +17,11 @@
    
     <div class="row">
 
-        <div class="col-md-4"></div>
+        <div class="col-md-3"></div>
 
-    <div class="col-md-4">
+    <div class="col-md-6">
         <form>
-            <div class="question">
+            <div class="question grey-background">
                 <h3>Nimmst du Nahrungsergänzungsmittel?</h3>
             </div>
 
@@ -35,11 +35,16 @@
                 <label class="form-check-label" for="radio2">Nein</label>
             </div>
         </form>
+        <div class="button">
+            <button class="btn btn-primary" type="button">Nexte Frage</button>
+        </div>
     </div>
     
-    <div class="col-md-4"></div>
+    <div class="col-md-3"></div>
   </div>
 </div>
+
+<?php include 'footer.php'?>
 
 </body>
 </html>

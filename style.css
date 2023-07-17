@@ -18,7 +18,11 @@
   border-radius: 10px;
   background-color: rgb(241, 240, 240);
   margin-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
 }
+
+
 footer {
   margin-bottom: 0%;
   margin-top: 400px;
@@ -32,8 +36,12 @@ h2 {
 }
 
 form {
-  width: 800px;
+  width: 100%;/*don't change this (francisco)*/
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
+
+
 .form-range {
   width: 100%;
   background-color: rgb(104, 100, 100);
@@ -45,10 +53,13 @@ form {
   margin-top: 15px;
   justify-content: space-between;
 }
-.question{
-    margin-top: 50px;
-    margin-bottom: 50px;
+
+
+.button{
+  text-align: end;
 }
+
+
 .input-group {
  width: auto;
  margin-top: 50px;
