@@ -17,7 +17,28 @@
 </head>
 <body>
     <?php include 'header.php';?>
-    <!--in diesem Dokument geht es darum, dass wir ein Template haben und in diser seite sollte ein Range slider verfügbar sein mit der abstufungen 0-5 un es sollten dann noch beschriftungen oben dran sein und noch ein Weiter Knopf unten rechts und im Ideal fall eine Progress bar und alles mit bootstrap-->
+
+    <?php include 'array.php';?>
+    <?php include 'tools.php';?>
+    <?php
+    #(francisco) ich brauche noch eine Erklärung wofür dieses isset genau gedacht ist.
+    if (isset($_POST["questionIndex"])) {
+        $questionIndex = $_POST["questionIndex"];
+    } else {
+        //auf der index.php Seite gibt es noch keine $_POST werte
+        $questionIndex = -1;
+    }
+
+    //setze die Laufnummer auf die nächsten frage:
+    $questionIndex++;
+    $questionText = QUESTIONS[$questionIndex]["questionText"];
+
+    $data = QUESTIONS[$questionIndex];
+
+    prettyPrint($data)
+    ?>
+    <!--in diesem Dokument geht es darum, dass wir ein Template haben und in diser seite sollte ein Range slider verfügbar sein mit der abstufungen 0-5 un es sollten 
+    dann noch beschriftungen oben dran sein und noch ein Weiter Knopf unten rechts und im Ideal fall eine Progress bar und alles mit bootstrap-->
     <div class="heightSpacerTop"></div>
 
 
@@ -29,13 +50,16 @@
 </div>
 <!--dieses Template wurde von Franicsco verfasst-->
 <div class="col-6" >
-<h3>Hast du das Gefühl, zu wenig, genügend
-oder viel zu viel zusätzliche körperliche
-Aktivitäten zu betreiben? </h3>
+<div class="grey-background">
+    <p> Frage <?php echo $questionIndex +1;?></p>
+    <h3><?php echo $data["questionText"];?></h3>
+</div>
 <form action="Rangequestion" class="mx-auto col-10 col-md-8 col-lg-6">
     <label for=<?php $fRangeQuestion?>>Sehr Wenig</label>
     <br>
     <input type="range" class="form-range" min="0" max="5" >
+    <!--button muss noch zu einem Input type verändert werden.-->
+    <button>weiter</button>
 </form>
 <div class="progress" style="height: 20px;">
   <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
@@ -43,7 +67,6 @@ Aktivitäten zu betreiben? </h3>
 
 </div>
 <div class="col">
-<button>weiter</button>
 </div>
 </div>
     <?php include 'footer.php';?>

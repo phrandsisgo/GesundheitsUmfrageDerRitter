@@ -30,7 +30,21 @@
             <p>Wie gesund bist du körperlich?</p>
         </div>
         <form action="#" method="post" onclick= return>
-            <label class="form-label">schlecht solala gut</label>
+            <label class="form-label">
+                <div class="container text-center">
+                    <div class="row">
+                        <div class="col">
+                        Schlecht
+                        </div>
+                        <div class="col">
+                        solala
+                        </div>
+                        <div class="col">
+                        gut
+                        </div>
+                    </div>
+                </div>
+            </label>
             <input type="range" class="form-range" min="0" max="5" id="customRange">
         </form>
         <button class="btn btn-primary" type="button">Nexte Frage</button>
