@@ -1,5 +1,5 @@
 <?php
-include "questions.php";#bei mir gibt es den als array.php im root orner des Projektes
+include "array.php";#bei mir gibt es den als array.php im root orner des Projektes
 include "tools.php"; #keine ahnung was das macht soweit
 
 //hole die Laufnummer der letzten frage aus $_POST
@@ -13,18 +13,18 @@ if (isset($_POST["questionIndex"])) {
 }
 
 //setze die Laufnummer auf die nächsten frage:
-$questionIndex++; 
+$questionIndex = $questionIndex + 1;
 
 //hole die frage aus dem array
-$data = $Questions[$questionIndex];
+$data = QUESTIONS[$questionIndex];
 prettyPrint($data);//pretty print muss noch vom anderen Projekt kopiert werden. 
 
-$data = $questions[$questionIndex];#question index ist hier noch nicht vorhanden aber wird über das include hinzugefügt
+#question index ist hier noch nicht vorhanden aber wird über das include hinzugefügt
 ?>
 
 
 <h3>Frage <?php echo $questionIndex +1; ?></h3>
-<p><?php echo $questionText; ?></p>
+<p><?php echo $data["questionText"]; ?></p>
 
 <form action="question-2.php" method="post" onsubmit="return validateRagnge('range-slider');">
 <p  class="instruction"><?php echo $data["instruction"]; ?></p>
@@ -47,6 +47,8 @@ step="<?php echo $data["step"];?>"
 value="<?php echo $data["value"];?>"
 >
 <input type="hidden" name="questionIndex" value="<?php echo $data["questionIndex"]; ?>">
+<p id="validation-warning" class="warning"></p>
+<button id="" class="btn btn-primary">Next<button>
 
 
 </input>

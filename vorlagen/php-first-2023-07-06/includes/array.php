@@ -34,6 +34,7 @@ $fragen = array(
     array(
         "questionText" => "Wie gesund bist du körperlich?",
         "type" => "rangeSlider",
+        "instruction"=> "schätze diene Gesundheit mit dem slider ein.",
         "labels" => array("ungesund", "s", ""),
         "min" => 0,
         "max" => 5
@@ -78,4 +79,5 @@ $fragen = array(
         "questionText" => "An einem typischen Tag: Wie viele deiner Malze",
         "type" => "eingabefeld Zahl",
     ));
+    define("QUESTIONS", $questions);
 ?>
