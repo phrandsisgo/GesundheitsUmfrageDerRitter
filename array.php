@@ -1,5 +1,5 @@
 <?php
-$fragen = array(
+$questions = array(
     "Wie gesund bist du körperlich?"=>"5",
     "Nimmst du Nahrungsergänzungsmittel?"=>"nein",
     "Wie wichtig ist köperliche Aktivität für dich?"=>"5",
