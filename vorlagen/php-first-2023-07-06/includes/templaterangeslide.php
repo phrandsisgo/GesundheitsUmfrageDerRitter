@@ -13,7 +13,7 @@
 <body>
 
 <?php
-include "questions.php";#bei mir gibt es den als array.php im root orner des Projektes
+include "array.php";#bei mir gibt es den als array.php im root orner des Projektes
 include "tools.php"; #keine ahnung was das macht soweit
 
 //hole die Laufnummer der letzten frage aus $_POST
@@ -31,17 +31,14 @@ $questionIndex++;
 $questionText = QUESTIONS[$questionIndex]["questionText"];#hier wird die frage aus dem array geholt
 
 //hole die frage aus dem array
-//$data = $Questions[$questionIndex];
-//die Questions variable isch usem array.php
-$data = QUESTIONS[$questionIndex];#question index ist hier noch nicht vorhanden aber wird über das include hinzugefügt
-
+$data = QUESTIONS[$questionIndex];
 prettyPrint($data);//pretty print muss noch vom anderen Projekt kopiert werden. 
 
 ?>
 
 
 <h3>Frage <?php echo $questionIndex +1; ?></h3>
-<p><?php echo $questionText; ?></p>
+<p><?php echo $data["questionText"]; ?></p>
 
 <form action="question-2.php" method="post" onsubmit="return validateRagnge('range-slider');">
 <p  class="instruction">ganz links Wäre eher schlecht und Rechts sehr gut.</p>
