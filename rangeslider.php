@@ -17,6 +17,26 @@
 </head>
 <body>
     <?php include 'header.php';?>
+
+    <?php include 'array.php';?>
+    <?php include 'tools.php';?>
+    <?php
+    #(francisco) ich brauche noch eine Erklärung wofür dieses isset genau gedacht ist.
+    if (isset($_POST["questionIndex"])) {
+        $questionIndex = $_POST["questionIndex"];
+    } else {
+        //auf der index.php Seite gibt es noch keine $_POST werte
+        $questionIndex = -1;
+    }
+
+    //setze die Laufnummer auf die nächsten frage:
+    $questionIndex++;
+    $questionText = QUESTIONS[$questionIndex]["questionText"];
+
+    $data = QUESTIONS[$questionIndex];
+
+    prettyPrint($data)
+    ?>
     <!--in diesem Dokument geht es darum, dass wir ein Template haben und in diser seite sollte ein Range slider verfügbar sein mit der abstufungen 0-5 un es sollten 
     dann noch beschriftungen oben dran sein und noch ein Weiter Knopf unten rechts und im Ideal fall eine Progress bar und alles mit bootstrap-->
     <div class="heightSpacerTop"></div>
