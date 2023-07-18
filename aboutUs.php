@@ -8,10 +8,10 @@
 </head>
 <body>
 
-<?php include 'header.php';?>
+<?php include 'include/header.php';?>
 
 <h1>here comes the content of auboutUs</h1>
-<?php include 'footer.php';?>
+<?php include 'include/footer.php';?>
     
 </body>
 </html>

@@ -32,7 +32,7 @@ $fragen = array(
  #hier wierd es so gemacht wie chris es vorgeschlagen hat.
 
  
-$fragen=array(
+$questions=array(
     array(
         "questionText" => "Wie gesund bist du körperlich?",
         "type" => "rangeSlider",
