@@ -11,14 +11,36 @@
     <title>Document</title>
 </head>
 <body>
-    <?php include 'header.php';?>
+
+  <?php
+    include 'header.php';
+    include "array.php";#bei mir gibt es den als array.php im root orner des Projektes
+    include "tools.php"; #keine ahnung was das macht soweit
+
+    //hole die Laufnummer der letzten frage aus $_POST
+    // Benötiget <input type="hidden" name="questionIndex" value="0">
+    // im <form>Tag.
+    if (isset($_POST["questionIndex"])) {
+        $questionIndex = $_POST["questionIndex"];
+    } else {
+        //auf der index.php Seite gibt es noch keine $_POST werte
+        $questionIndex = -1;
+    }
+
+    //setze die Laufnummer auf die nächsten frage:
+    $questionIndex++; 
+    $questionText = QUESTIONS[$questionIndex]["questionText"];#hier wird die frage aus dem array geholt
+
+    //hole die frage aus dem array
+    $data = QUESTIONS[$questionIndex];
+    prettyPrint($data);//pretty print muss noch vom anderen Projekt kopiert werden. 
+
+?>
 
   <div class="card w-50">
     <div class="card-h4">
-      <h4>An einem typischen Tag: Wie viele deiner
-        Malzeiten oder Snacks enthalten
-        Kohlenhydrate?
-      </h4>
+    <h6>Frage <?php echo $questionIndex +1; ?></h6>
+      <p><?php echo $data["questionText"]; ?></p>
     </div>
     <div class="input-group" action="#" method="post" onclick= return>
         <input type="number" class="form-control">
