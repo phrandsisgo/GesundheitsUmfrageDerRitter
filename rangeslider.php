@@ -51,9 +51,8 @@
 <!--dieses Template wurde von Franicsco verfasst-->
 <div class="col-6" >
 <div class="grey-background">
-    <h3>Hast du das Gefühl, zu wenig, genügend
-    oder viel zu viel zusätzliche körperliche
-    Aktivitäten zu betreiben? </h3>
+    <p> Frage <?php echo $questionIndex +1;?></p>
+    <h3><?php echo $data["questionText"];?></h3>
 </div>
 <form action="Rangequestion" class="mx-auto col-10 col-md-8 col-lg-6">
     <label for=<?php $fRangeQuestion?>>Sehr Wenig</label>

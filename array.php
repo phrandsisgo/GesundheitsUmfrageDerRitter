@@ -90,5 +90,6 @@ $fragen=array(
         "type" => "eingabefeld Zahl",
         "fortschritt" => 90
     ));
-    define("QUESTIONS", $questions);
+
+    define("QUESTIONS", $fragen);
 ?>
