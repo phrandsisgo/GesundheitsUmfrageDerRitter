@@ -1,5 +1,5 @@
 <?php
-$fragen = array(
+$questions = array(
     "Wie gesund bist du körperlich?"=>"5",
     "Nimmst du Nahrungsergänzungsmittel?"=>"nein",
     "Wie wichtig ist köperliche Aktivität für dich?"=>"5",
@@ -90,5 +90,6 @@ $questions=array(
         "type" => "eingabefeld Zahl",
         "fortschritt" => 90
     ));
-    define("QUESTIONS", $questions);
+
+    define("QUESTIONS", $fragen);
 ?>
